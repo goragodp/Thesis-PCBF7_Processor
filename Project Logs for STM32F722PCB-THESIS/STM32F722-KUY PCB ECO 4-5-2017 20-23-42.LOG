@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=USER-1
+Removed Pin From Net: NetName=GND Pin=USER-1
+Added Component: Designator=R4(Chip 0603R)
+Added Pin To Net: NetName=VDD Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=VDD Pin=USER-2
+Added Pin To Net: NetName=VDD Pin=USER-2
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_1 Pin=R2-1
+Added Pin To Net: NetName=NetC12_1 Pin=R4-1
+Added Pin To Net: NetName=NetC12_1 Pin=USER-1
+Added Pin To Net: NetName=NetC12_1 Pin=USER-1
+Added Net: Name=NetC12_1
+Added Member To Class: ClassName=STM32F7 Member=Component R4 220K

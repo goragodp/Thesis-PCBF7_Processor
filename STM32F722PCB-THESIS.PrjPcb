@@ -39,6 +39,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Layout\STM32F722-KUY.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PUAVMLPK
+
+[Document2]
 DocumentPath=Schematic\STM32F7.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBEFPFLS
 
-[Document2]
+[Document3]
 DocumentPath=Library\CAESAR-Lib_sch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KKRKTRRY
 
-[Document3]
+[Document4]
 DocumentPath=Library\CAESAR-Lib_footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,6 +105,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FHKPTWOS
+
+[Document5]
+DocumentPath=Library\Schlib.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VDATGLQQ
+
+[Document6]
+DocumentPath=Library\Footprint.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Default Configuration
@@ -233,7 +284,7 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Send To OneNote 2010
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -1016,6 +1067,66 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=CaesarLib_1.1.IntLib
+ComponentDesignItemID0=BAT60JFILM
+ComponentSymbolReference0=BAT60JFILM
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=CaesarLib_1.1.IntLib
+ComponentDesignItemID1=CT1206
+ComponentSymbolReference1=CT1206
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=CaesarLib_1.1.IntLib
+ComponentDesignItemID2=LD1117AS33TR
+ComponentSymbolReference2=LD1117AS33TR
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=CAESAR-Lib_sch.SchLib
+ComponentDesignItemID3=Crystal-32.768K
+ComponentSymbolReference3=Crystal-32.768K
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=CAESAR-Lib_sch.SchLib
+ComponentDesignItemID4=STM32F722RE
+ComponentSymbolReference4=STM32F722RE
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Miscellaneous Connectors.IntLib
+ComponentDesignItemID5=Header 10X2A
+ComponentSymbolReference5=Header 10X2A
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Miscellaneous Connectors.IntLib
+ComponentDesignItemID6=Header 8X2
+ComponentSymbolReference6=Header 8X2
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Miscellaneous Devices.IntLib
+ComponentDesignItemID7=XTAL
+ComponentSymbolReference7=XTAL
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Schlib.SchLib
+ComponentDesignItemID8=0603-C
+ComponentSymbolReference8=0603-C
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Schlib.SchLib
+ComponentDesignItemID9=0603-R
+ComponentSymbolReference9=0603-R
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1029,6 +1140,72 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=LatestRevisionDate
+ParameterUpdate4=1
+ParameterName5=LatestRevisionNote
+ParameterUpdate5=1
+ParameterName6=Library Reference
+ParameterUpdate6=1
+ParameterName7=Mouser Link
+ParameterUpdate7=1
+ParameterName8=PackageDescription
+ParameterUpdate8=1
+ParameterName9=PackageReference
+ParameterUpdate9=1
+ParameterName10=Published
+ParameterUpdate10=1
+ParameterName11=Publisher
+ParameterUpdate11=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=Chip 0603C
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=Chip 0603R
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=Chip Tan 1206
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=Crystal32k
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=HDR2X10_CEN
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=HDR2X8
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=R38
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=SOD323
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=SOT-223
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=STM32F722RE-FP
+ModelUpdate9=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType10=SI
+ModelName10=Connector
+ModelUpdate10=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType11=SIM
+ModelName11=XTAL
+ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1042,4 +1219,7 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
