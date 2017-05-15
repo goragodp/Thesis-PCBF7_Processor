@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=PH0 Pin=X2-1
+Removed Pin From Net: NetName=PH1 Pin=X2-3
+Removed Member From Class: ClassName=STM32F7 Member=X2
